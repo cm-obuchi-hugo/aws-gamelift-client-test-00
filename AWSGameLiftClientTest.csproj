@@ -5,4 +5,14 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>\lib\AWSSDK.Core.dll</HintPath>
+    </Reference>
+
+    <Reference Include="AWSSDK.GameLift">
+      <HintPath>\lib\AWSSDK.GameLift</HintPath>
+    </Reference>
+  </ItemGroup>
+  
 </Project>
