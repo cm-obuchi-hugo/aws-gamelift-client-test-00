@@ -11,8 +11,8 @@
     </Reference>
 
     <Reference Include="AWSSDK.GameLift">
-      <HintPath>\lib\AWSSDK.GameLift</HintPath>
+      <HintPath>\lib\AWSSDK.GameLift.dll</HintPath>
     </Reference>
   </ItemGroup>
-  
+
 </Project>
