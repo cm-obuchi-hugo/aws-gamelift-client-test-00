@@ -4,9 +4,17 @@ namespace AWSGameLiftClientTest
 {
     class Program
     {
+        static private GameClient client = new GameClient();
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            client.Start();
+
+            while(client.IsAlive)
+            {
+
+            }
+
+            Console.WriteLine("Program ends.");
         }
     }
 }
