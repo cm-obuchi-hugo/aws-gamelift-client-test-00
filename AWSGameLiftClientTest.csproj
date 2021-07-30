@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="AWSSDK.Core">
+      <HintPath>lib\AWSSDK.Core.dll</HintPath>
+    </Reference>
+
+    <Reference Include="AWSSDK.GameLift">
+      <HintPath>lib\AWSSDK.GameLift.dll</HintPath>
+    </Reference>
+
+    <Reference Include="AWSSDK.CognitoIdentity">
+      <HintPath>lib\AWSSDK.CognitoIdentity.dll</HintPath>
+    </Reference>
+
+    <Reference Include="AWSSDK.CognitoSync">
+      <HintPath>lib\AWSSDK.CognitoSync.dll</HintPath>
+    </Reference>
+
+    <Reference Include="AWSSDK.SecurityToken">
+      <HintPath>lib\AWSSDK.SecurityToken.dll</HintPath>
+    </Reference>
+    
+  </ItemGroup>
+
+</Project>
